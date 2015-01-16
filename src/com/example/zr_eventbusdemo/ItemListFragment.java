@@ -61,7 +61,7 @@ public class ItemListFragment extends ListFragment
     
     public void onEventAsync(String str)  {  
     	System.out.println("test");  
-    } 
+    }    
   
     @Override  
     public void onListItemClick(ListView listView, View view, int position,  
