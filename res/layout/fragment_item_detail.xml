@@ -3,15 +3,19 @@
     android:layout_width="match_parent"  
     android:layout_height="match_parent"  
     android:baselineAligned="false"  
-    android:divider="?android:attr/dividerHorizontal"  
-    android:orientation="horizontal"  
-    android:showDividers="middle" >  
+    android:orientation="vertical">  
   
     <TextView 
         android:id="@+id/item_detail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="test"
+        />
+    <Button 
+        android:id="@+id/async_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Async Evnet按钮"
         />
   
 </LinearLayout> 

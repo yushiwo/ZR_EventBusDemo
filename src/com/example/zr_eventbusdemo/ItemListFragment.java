@@ -58,6 +58,10 @@ public class ItemListFragment extends ListFragment
                 android.R.layout.simple_list_item_activated_1,  
                 android.R.id.text1, event.getItems()));  
     }  
+    
+    public void onEventAsync(String str)  {  
+    	System.out.println("test");  
+    } 
   
     @Override  
     public void onListItemClick(ListView listView, View view, int position,  
